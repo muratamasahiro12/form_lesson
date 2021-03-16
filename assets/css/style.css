@@ -72,20 +72,23 @@
   border-color: #3b5999;
   border-radius: 3px;
 }
-.fb_start:hover {
-  background-color: #344e87;
-}
 .fa_text {
   color: #ffffff;
   background-color: #3b5999;
   border-color: #3b5999;
   border-radius: 3px;
 }
+.fa_text:hover {
+  background-color: #344e87;
+}
 .gg_start {
   margin-left: 8px;
 }
 .gg_text {
   color: #dd4b39;
+}
+.gg_text:hover {
+  background-color: #f7f7f7;
 }
 .attention {
   margin-top: 8px;
@@ -134,8 +137,18 @@
   border: 1px solid #d9d9d9;
   background-color: #fbfbfb;
 }
+.input_area:focus {
+  background-color: #fff;
+  border-color: rgba(59, 133, 133, .4);
+  box-shadow: 0 0 0 2px rgba(1, 191, 189, .1);
+}
 .select_form {
   border-radius: 3px;
+}
+.select_form:focus {
+  background-color: #fbfbfb;
+  border-color: #d9d9d9;
+  box-shadow: initial;
 }
 .gender_contents {
   display: flex;
@@ -235,20 +248,20 @@
   height: 100px;
   resize: none;
 }
+.submit-btn:hover {
+  background-color: #01a6a4;
+}
 .link {
   color: #01a6a4;
 }
 .link:hover {
-  color: #01a6a4;
+  color: #01bfbd;
 }
 .checkbox_margin {
   margin-bottom: 10px;
 }
 .cb_select {
   font-size: 16px;
-}
-.full {
-  width: 100%;
 }
 .agree_text {
   font-size: 12px;
