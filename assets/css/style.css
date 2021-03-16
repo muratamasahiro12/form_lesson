@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 .full {
-  width:100%
+  width: 100%;
 }
 .half {
   width: 50%;
@@ -248,13 +248,26 @@
   height: 100px;
   resize: none;
 }
+.submit-btn {
+  color:#ffffff;
+  background-color: #01bfbd;
+  border: none;
+  height: 46px;
+  line-height: 36px;
+}
 .submit-btn:hover {
   background-color: #01a6a4;
+}
+.submit-btn:active {
+  background-color: #fff;
+  color: #01a6a4;
+  border: 1px solid #d9d9d9;
 }
 .link {
   color: #01a6a4;
 }
 .link:hover {
+  text-decoration: underline;
   color: #01bfbd;
 }
 .checkbox_margin {
@@ -264,13 +277,9 @@
   font-size: 16px;
 }
 .agree_text {
+  color: #000000;
   font-size: 12px;
   line-height: 16px;
-}
-.ac_cr {
-  color:#ffffff;
-  background-color: #01bfbd;
-  border: none;
 }
 .possession {
   text-align: center;
@@ -278,8 +287,12 @@
   font-size: 12px;
   line-height: 16px;
 }
+.ac_po {
+  line-height: 12px;
+}
 .mail_send {
   display: inline-block;
   margin-top: 8px;
+  line-height: 24px;
 }
 
