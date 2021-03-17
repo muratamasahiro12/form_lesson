@@ -251,9 +251,11 @@
 .submit-btn {
   color:#ffffff;
   background-color: #01bfbd;
+  box-sizing: border-box;
   border: none;
   height: 46px;
-  line-height: 36px;
+  line-height: 23px;
+  padding: 13px;
 }
 .submit-btn:hover {
   background-color: #01a6a4;
@@ -267,8 +269,8 @@
   color: #01a6a4;
 }
 .link:hover {
-  text-decoration: underline;
   color: #01bfbd;
+  border-bottom: 1px solid #01bfbd;
 }
 .checkbox_margin {
   margin-bottom: 10px;
@@ -279,20 +281,19 @@
 .agree_text {
   color: #000000;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 18px;
 }
 .possession {
   text-align: center;
   margin: 32px 0 8px 0;
   font-size: 12px;
-  line-height: 16px;
 }
 .ac_po {
-  line-height: 12px;
+  line-height: 16px;
 }
 .mail_send {
   display: inline-block;
   margin-top: 8px;
-  line-height: 24px;
+  line-height: 16px;
 }
 
